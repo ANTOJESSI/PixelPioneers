@@ -27,7 +27,7 @@ The website includes features like a login system, CGPA and credits calculators,
 - **Team Members**: 
   - Anto Jessi A(https://github.com/ANTOJESSI)
   - Praisey S(https://github.com/PRAISEYSOLOMON)
-  - Sakthi Navaneetha M.R(https://github.com/member3username)
+  - Sakthi Navaneetha M.R(https://github.com/sakthinavaneetha)
   - Vanisha Ramesh(https://github.com/member4username)
 
  ## Mentorship
