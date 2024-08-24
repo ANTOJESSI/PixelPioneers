@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Importing the Montserrat font */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background similar to the one in the image */
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif; /* Applying the Montserrat font */
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.get-started-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.get-started-btn:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: swipeIn 1s ease-out forwards;
+}
+
+#tagline {
+    font-size: 12px; /* Small font size for the tagline */
+    margin-top: 5px;
+    color: #000; /* Black text color */
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards 1s;
+}
+
+@keyframes swipeIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
